@@ -1,0 +1,254 @@
+/* LARGE TABLET STYLING */
+@media (max-width: 1201px) and (min-width: 787px) {
+
+    .nav-link a {font-size: 80%;}
+    .button-header-contact {font-size: 80%;}
+
+}
+
+@media (max-width: 986px) {
+
+    .hero-title {
+        font-size: 200%;
+    }
+    .hero-text {
+        font-size: 100%;
+    }
+
+}
+
+
+/* SMALL TABLET STYLING */
+@media (max-width: 876px) {
+
+    .p-product-header > p {
+        font-size: 275%;
+    }
+    .features-sub-section > h5 {
+        margin-top: 1%;
+        font-size: 125%;
+    }
+    .features-sub-section > p {
+        font-size: medium;
+    }
+
+
+}
+
+@media (max-width: 786px) {
+
+    .header-sub-section-2 {display: none;}
+
+    .hero-section {display: none;}
+    .hero-mobile-section {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .hero-section-1 {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .hero-sub-section-1 {
+        width: auto;
+    }
+    .hero-sub-section-2 {
+        width: auto;
+        padding-top: 5%;
+    }
+    .hero-text-section {
+        width: auto;
+    }
+    .hero-section-3 {
+        position: relative;
+        width: auto;
+        margin-top: 10%;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    .hero-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 300%;
+    }
+    .hero-text {
+        font-size: 125%;
+    }
+
+    /* Features Section */
+    .features-sub-section > h5 {
+        margin-top: 1%;
+        font-size: 125%;
+    }
+    .features-sub-section > p {
+        font-size: medium;
+    }
+
+    .p-intro-header {
+        font-size: 200%;
+    }
+    .p-intro-body {
+        font-size: 100%;
+    }
+
+    .product-left-section {
+        margin-bottom: 10%;
+    }
+    .product-right-section {
+        margin-bottom: 10%;
+    }
+    .product-sub-section > h3 {
+        margin-top: 0;
+        font-size: 200%;
+    }
+    .product-sub-section > p {
+        font-size: 100%;
+    }
+    /*.p-product-header-1 {
+        font-size: 250%;
+    }
+    .p-product-header-2 {
+        font-size: 250%;
+    }*/
+    .p-product-header > p {
+        font-size: 259%;
+    }
+
+
+}
+
+
+/* MOBILE STYLING */
+@media (max-width: 678px) {
+
+    .product-left-section {display: none;}
+    .product-right-section {display: none;}
+    .hero-section-3 {display: none;}
+
+
+    .image-hero {
+        width: 80%;
+        height: auto;
+    }
+
+    /* Features Section */
+    .features-section {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 20%;
+    }
+    .features-sub-section {
+        margin-bottom: 5%;
+        padding-bottom: 4%;
+    }
+    .features-sub-section > h5{
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .features-sub-section > p {
+        font-size: 125%;
+    }
+
+    /* Introduction Section */
+    .introduction-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro-sub-section-1 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: auto;
+    }
+    .intro-sub-section-2 {
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+    .p-intro-header {
+        font-size: 300%;
+    }
+    .p-intro-body {
+        font-size: 125%;
+    }
+    .button-about {
+        font-size: 100%;
+        padding: 3%;
+    }
+
+    .image-intro {
+        display: none;
+    }
+
+    /* Products Section */
+    .product-mobile-section {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 5%;
+    }
+    .product-left-section-2 {
+        width: auto;
+    }
+    .p-product-sub-header {
+        margin-bottom: 2%;
+    }
+    .product-sub-section > h3 {
+        margin-top: 0;
+        font-size: 100%;
+    }
+    .product-sub-section > p {
+        font-size: 125%;
+    }
+    .p-product-header > p {
+        font-size: 300%;
+    }
+
+
+
+    /* Services Section */
+    .services-sub-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15%;
+        text-align: center;
+    }
+    .services-item > h5 {
+        margin-top: 1%;
+        margin-bottom: 0;
+    }
+    .image-service {
+        width: 50%;
+    }
+
+    /* Ethics Section */
+    .ethics-section {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: auto;
+    }
+
+    /* UK Distributors Section */
+    .ukdistributor-section {
+        margin-bottom: 10%;
+    }
+
+    /* Footer Section */
+    .footer-panel-section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+}
